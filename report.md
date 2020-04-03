@@ -7,9 +7,17 @@
 
 # Table Design
 
+Primary key: Sub-Borough Area
+
+Sub-Borough Area: varchar(255)
+2000: numeric
+2005-2018: numeric
+
+null-values not allowed, duplicates allowed (all values are filled in in the csv and it's possible to have duplicate percentages)
 
 # Import
 
+Import succeeded without error.
 
 # Database Information
 
